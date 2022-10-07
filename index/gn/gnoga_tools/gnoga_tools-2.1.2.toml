@@ -16,8 +16,8 @@ project-files = ["tools_agg.gpr"]
 gnoga = "^2.1.2"
 [origin]
 commit = "a9d26da7b4a9e23185091ee84b08219339449e83"
-url = "https://github.com/JulienGioux/gnoga.git"
+url = "git+https://github.com/JulienGioux/gnoga.git"
 subdir = "tools"
  
  [[pins]]
-gnoga = { path = "https://github.com/JulienGioux/gnoga.git"}
+gnoga = { path = "git+https://github.com/JulienGioux/gnoga.git"}
