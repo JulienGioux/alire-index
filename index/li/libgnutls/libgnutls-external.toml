@@ -1,5 +1,5 @@
 name = "libgnutls"
-
+description = "GNU TLS library"
 maintainers = ["alejandro@mosteo.com"]
 maintainers-logins = ["mosteo"]
 
