@@ -1,0 +1,26 @@
+name = "gnoga_tools"
+description = "gnoga - The GNU Omnificent GUI for Ada"
+version = "2.1.2"
+tags = ["gui", "web", "server", "http", "https", "ssl"]
+
+authors = ["David Botton"]
+maintainers = ["Pascal Pignard <blady.net@orange.fr>"]
+maintainers-logins = ["Blady-Com"]
+website = "https://github.com/Blady-Com/gnoga"
+
+licenses = "GPL-3.0-only WITH GCC-exception-3.1"
+
+project-files = ["tools_agg.gpr"]
+
+[gpr-set-externals.'case(os)']
+linux   = { Target_OS = "Linux", PRJ_TARGET = "Linux" }
+windows = { Target_OS = "Windows", PRJ_TARGET = "Windows" }
+macos   = { Target_OS = "OSX", PRJ_TARGET = "OSX" }
+
+[[depends-on]]
+gnoga = "*"
+
+[origin]
+commit = "8bf1cb359830224747e1169618e3eccd034aee86"
+url = "git+https://github.com/Blady-Com/gnoga.git"
+subdir = "tools"
