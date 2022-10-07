@@ -19,6 +19,6 @@ windows = { Target_OS = "Windows", PRJ_TARGET = "Windows" }
 macos   = { Target_OS = "OSX", PRJ_TARGET = "OSX" }
 
 [origin]
-commit = "1963d141a64757a3eca53f0343fc6d16c1d465c9"
 url = "git+https://github.com/JulienGioux/gnoga.git"
+commit = "1963d141a64757a3eca53f0343fc6d16c1d465c9"
 subdir = "tools"
