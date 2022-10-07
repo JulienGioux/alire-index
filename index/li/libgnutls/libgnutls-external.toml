@@ -1,4 +1,3 @@
-description = "GNU TLS library"
 name = "libgnutls"
 
 maintainers = ["alejandro@mosteo.com"]
@@ -9,6 +8,8 @@ kind = "system"
 [external.origin."case(distribution)"]
 "..." = []
 "debian|ubuntu" = ["libgnutls28-dev"]
+"msys2" = ["libgnutls-devel"]
+"fedora" = ["gnutls-devel"]
 
 [[external]]
 kind = "version-output"
