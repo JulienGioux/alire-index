@@ -12,6 +12,11 @@ licenses = "GPL-3.0-only WITH GCC-exception-3.1"
 
 project-files = ["tools_agg.gpr"]
 
+[gpr-set-externals.'case(os)']
+linux   = { Target_OS = "Linux", PRJ_TARGET = "Linux" }
+windows = { Target_OS = "Windows", PRJ_TARGET = "Windows" }
+macos   = { Target_OS = "OSX", PRJ_TARGET = "OSX" }
+
 [origin]
 commit = "a9d26da7b4a9e23185091ee84b08219339449e83"
 url = "git+https://github.com/JulienGioux/gnoga.git"
