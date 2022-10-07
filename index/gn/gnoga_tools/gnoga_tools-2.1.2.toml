@@ -20,4 +20,4 @@ url = "git+https://github.com/JulienGioux/gnoga.git"
 subdir = "tools"
  
  [[pins]]
-gnoga = { path = "git+https://github.com/JulienGioux/gnoga.git"}
+gnoga = { path = ".."}
