@@ -12,6 +12,9 @@ licenses = "GPL-3.0-only WITH GCC-exception-3.1"
 
 project-files = ["tools_agg_ext.gpr"]
 
+[configuration]
+disabled = true
+
 [gpr-set-externals.'case(os)']
 linux   = { Target_OS = "Linux", PRJ_TARGET = "Linux" }
 windows = { Target_OS = "Windows", PRJ_TARGET = "Windows" }
