@@ -9,9 +9,12 @@ website = "https://github.com/Blady-Com/gnoga"
 
 licenses = "GPL-3.0-only WITH GCC-exception-3.1"
 
-project-files = ["tools_agg.gpr"]
+project-files = ["tools_agg_ext.gpr"]
 
 executables = ["gnoga_make", "gnoga_doc"]
+
+[[depends-on]]
+gnoga = "2.1.2"
 
 [gpr-set-externals.'case(os)']
 linux   = { Target_OS = "Linux", PRJ_TARGET = "Linux" }
