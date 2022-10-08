@@ -1,6 +1,6 @@
 name = "markdown"
 description = "Markdown parser"
-version = "0.1.0-dev"
+version = "0.1.0"
 tags = ["markdown", "gfm", "commonmark"]
 
 authors = ["AdaCore"]
